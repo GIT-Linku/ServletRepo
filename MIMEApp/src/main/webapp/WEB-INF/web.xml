@@ -1,0 +1,69 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>html</servlet-name>
+		<servlet-class>com.nit.servlet.HtmlServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>html</servlet-name>
+		<url-pattern>/htmlurl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+        <servlet-name>plain</servlet-name>
+		<servlet-class>com.nit.servlet.PlainServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>plain</servlet-name>
+		<url-pattern>/plainurl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+        <servlet-name>excel</servlet-name>
+		<servlet-class>com.nit.servlet.ExcelServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>excel</servlet-name>
+		<url-pattern>/excelurl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+        <servlet-name>word</servlet-name>
+		<servlet-class>com.nit.servlet.WordServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>word</servlet-name>
+		<url-pattern>/wordurl</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+        <servlet-name>xml</servlet-name>
+		<servlet-class>com.nit.servlet.XmlServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>xml</servlet-name>
+		<url-pattern>/xmlurl</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>lc</servlet-name>
+		<servlet-class>com.nit.servlet.LcTestServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>	
+	</servlet>
+
+	<servlet-mapping>
+	    <servlet-name>lc</servlet-name>
+		<url-pattern>/lcurl</url-pattern>
+	</servlet-mapping>
+
+</web-app>
