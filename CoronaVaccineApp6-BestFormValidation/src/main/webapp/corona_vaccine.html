@@ -1,0 +1,14 @@
+
+<h1 style="color:red;text-align:center">Corona Vaccine Eligibility Check</h1>
+
+<form action="coronaurl" method="POST" onsubmit="return validate(this)">
+    Person Name :<input type="text" name="pname"><span id="pnameErr" style="color:red"></span><br>
+    Person Address : <input type="text" name="paddrs"><span id="paddrsErr" style="color:red"></span><br>
+    Person Age : <input type="text" name="page"><span id="pageErr" style="color:red"></span><br>
+    <input type="submit" value="Check Eligibility">
+    <input type="hidden" name="vflag" value="no"/>
+</form>
+
+<script language="JavaScript" src="js/validation.js">
+  
+</script>
