@@ -1,0 +1,16 @@
+
+
+<h1 style="color:red;text-align:center">Marriage Eligible Check</h1>
+<form action="marriageurl" method="POST" onsubmit="return validate(this)">
+   Candidate Name :<input type="text" name="cname"><span id="cnameErr" style="color:red"></span><br>
+   Candidate Age:<input type="text" name="cage"><span id="cageErr" style="color:red"></span><br>
+   Candidate Gender  <br>
+   		<input type="radio"name = "cgender" value="male">Male<span id="cgenderErr" style="color:red"></span>&nbsp;&nbsp;
+        <input type="radio"name = "cgender" value="female">Female<span id="cgenderErr" style="color:red"></span>&nbsp;&nbsp;<br>
+    <input type="submit" value="Check Eligibility">
+    <input type="hidden" name="vflag" value="no"/>
+</form>
+
+<script language="JavaScript" src="js/validation.js">
+  
+</script>
