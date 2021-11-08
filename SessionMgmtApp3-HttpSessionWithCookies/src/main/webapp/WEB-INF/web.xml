@@ -4,7 +4,7 @@ xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" 
 id="WebApp_ID" 
 version="4.0">
-  <display-name>SessionMgmtApp1-HiddenFormFields</display-name>
+  <display-name>SessionMgmtApp2-HttpSessionWithCookies</display-name>
   <welcome-file-list>
     <welcome-file>person_details.html</welcome-file>
   </welcome-file-list>

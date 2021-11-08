@@ -35,7 +35,7 @@ public class FirstServlet extends HttpServlet {
 		
 		//generate form2 data as per marrital status
 		if (ms.equalsIgnoreCase("married")) {
-			pw.println("<h1 style='color:red;text-align:center'>Person Details - page2</h1>");
+			pw.println("<h1 style='color:red;text-align:center'>Person Details - page2(Session tracking using Http Session with Cookies)</h1>");
 			pw.println("<form action='secondurl' method='POST'>");
 			pw.println("<table bgcolor='pink' align='center'>");
 			pw.println("<tr><td>Spous name : </td><td><input type='text' name='f2t1'></td></tr>");
@@ -45,7 +45,7 @@ public class FirstServlet extends HttpServlet {
 			pw.println("</form>");
 		}//if 
 		else {
-			pw.println("<h1 style='color:red;text-align:center'>Person Details - page2</h1>");
+			pw.println("<h1 style='color:red;text-align:center'>Person Details - page2(Session tracking using Http Session with Cookies)</h1>");
 			pw.println("<form action='secondurl' method='POST'>");
 			pw.println("<table bgcolor='pink' align='center'>");
 			pw.println("<tr><td>Why u want to marry : </td><td><input type='text' name='f2t1'></td></tr>");
