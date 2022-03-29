@@ -45,7 +45,7 @@ public class EmployeeRegistrationServlet extends HttpServlet {
 			UploadBean upb = new UploadBean();
 			upb.setFolderstore("E:/store");
 			upb.setOverwrite(false);
-			upb.setFilesizelimit(50*1024);
+			upb.setFilesizelimit(500*1024);
 			//complete file Upload process
 			upb.store(nreq);
 			pw.println("<b>file are uploaded successfully</b>");
